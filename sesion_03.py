@@ -19,3 +19,47 @@ mi_lista_2 = ["Lunes","Martes","Miercoles","Jueves","Viernes"]
 for i in mi_lista_2:
    if i != "Lunes":
     print(f"Feliz {i}!")
+
+#While Loop
+i = 0 
+
+while i <5:
+   i += 1 
+   if i == 3:
+      continue
+      print(i)
+      if i == 4:
+        break
+
+else:
+   print("i es ahora mayor o igual a 5") 
+
+#Practica 2
+#Dada la lista mi_lista_2 = ("Lunes","Martes","Miercoles","Jueves","Viernes")
+#Imprimir cada elemento de la lista 3 veces y cuando sea lunes no lo incluyes
+#Pista:Usa los dos tipos de loops while y for en el mismo programa para lograrlo 
+#Resultado:
+#Martes
+#Miercoles
+#Jueves
+#Viernes
+#Martes
+#Miercoles
+#Jueves
+#Viernes
+#Martes
+#Miercoles
+#Jueves
+#Viernes
+for a in range(1,4):
+    for a in mi_lista_2:
+        if a != "Lunes":
+            print(f"{a}!")
+    contador = 0
+while contador >=3:
+    print(f"{mi_lista_2}!")
+    contador += 1 
+
+
+
+
